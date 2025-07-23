@@ -1,0 +1,8 @@
+- name: Set Windows Security Log Policies
+  hosts: windows
+  gather_facts: no
+  vars_files:
+    - ../vars/log_settings.yml  
+  roles:
+    - set_log_policy
+

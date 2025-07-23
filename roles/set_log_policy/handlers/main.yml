@@ -1,0 +1,5 @@
+- name: Restart Event Log Service
+  win_service:
+    name: EventLog
+    state: restarted
+
