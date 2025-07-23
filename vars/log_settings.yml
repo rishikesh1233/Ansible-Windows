@@ -1,2 +1,2 @@
-max_log_size:
-retention_policy: 
+max_log_size: 81920
+retention_policy: 1 
